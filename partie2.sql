@@ -29,10 +29,12 @@ CREATE TABLE `languages`(
     --id (type INT, auto-incrémenté, clé primaire)
     --tool (type VARCHAR)
 
-CREATE TABLE `tools`(
-    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    tool VARCHAR(100)
-)
+
+
+--CREATE TABLE `tools`(
+    --id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    --tool VARCHAR(100)
+--)
 
 -- E.03
 -- Dans la base de données webDevelopment, créer la table frameworks avec les colonnes suivantes :
@@ -43,20 +45,20 @@ CREATE TABLE `tools`(
 -- E.04
 -- Dans la base de données webDevelopment, créer la table libraries avec les colonnes suivantes :
 
-    id (type INT, auto-incrémenté, clé primaire)
-    library (type VARCHAR)
+    --id (type INT, auto-incrémenté, clé primaire)
+    --library (type VARCHAR)
 
 -- E.05
 -- Dans la base de données webDevelopment, créer la table ide avec les colonnes suivantes :
 
-    id (type INT, auto-incrémenté, clé primaire)
-    ideName (type VARCHAR)
+    --id (type INT, auto-incrémenté, clé primaire)
+    --ideName (type VARCHAR)
 
 -- E.06
 -- Dans la base de données webDevelopment, créer, si elle n'existe pas, la table frameworks avec les colonnes suivantes :
 
-    id (type INT, auto-incrémenté, clé primaire)
-    name (type VARCHAR)
+    --id (type INT, auto-incrémenté, clé primaire)
+    --name (type VARCHAR)
 
 -- E.07
 -- Supprimer la table tools si elle existe.
@@ -69,11 +71,11 @@ CREATE TABLE `tools`(
 
 -- T.P
 -- Créer la base codex. Y créer une table clients qui aura comme colonnes :
-id INT 	Auto-incrémenté, clé primaire
-lastname 	VARCHAR 	
-firstname 	VARCHAR 	
-birthDate 	DATE 	
-address 	VARCHAR 	
-firstPhoneNumber 	INT 	
-secondPhoneNumber 	INT 	
-mail 	VARCHAR 	
+    --id INT 	Auto-incrémenté, clé primaire
+    --lastname 	VARCHAR 	
+    --firstname 	VARCHAR 	
+    --birthDate 	DATE 	
+    --address 	VARCHAR 	
+    --firstPhoneNumber 	INT 	
+    --secondPhoneNumber 	INT 	
+    --mail 	VARCHAR 	
