@@ -2,6 +2,12 @@
 
 -- E.01
 -- Insérez les données suivantes dans la table languages de la base webDevelopment :
+INSERT INTO `languages` (language, version )
+
+
+
+
+
 
     JavaScript, version 5
     PHP, version 5.2
@@ -13,7 +19,8 @@
     PHP, version 7
 
 -- E.01
--- Insérez les données suivantes dans la table frameworks de la base webDevelopment :
+-- Insérez les données suivantes dans la table frameworks de la base
+-- webDevelopment :
 
     Symfony, version 2.8
     Symfony, version 3
